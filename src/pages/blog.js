@@ -1,7 +1,13 @@
 import React from "react"
 
-export default () => {
-    return (
-        <div>BLOG</div>
+import Layout from '../components/Layout';
+
+const Blog = () => {
+    return(
+        <Layout>
+            BLOG
+        </Layout>
     )
-}
+};
+
+export default Blog;

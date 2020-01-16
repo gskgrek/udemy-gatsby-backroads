@@ -5,5 +5,16 @@
  */
 
 module.exports = {
-  /* Your site config here */
+
+    siteMetadata: {
+        title: 'BackRads',
+        description: 'Lorem ipsum...',
+        author: 'John Smith',
+    },
+
+    plugins: [
+        'gatsby-plugin-sass',
+        'gatsby-plugin-styled-components',
+    ],
+
 }
